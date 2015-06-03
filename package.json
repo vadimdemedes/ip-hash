@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "round-robin": "vdemedes/round-robin"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
