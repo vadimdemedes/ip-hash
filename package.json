@@ -1,0 +1,27 @@
+{
+  "name": "ip-hash",
+  "version": "1.0.0",
+  "description": "ip-hash balancing algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdemedes/ip-hash.git"
+  },
+  "author": "Vadim Demedes <vdemedes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdemedes/ip-hash/issues"
+  },
+  "homepage": "https://github.com/vdemedes/ip-hash#readme",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "make-lint": "^1.0.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "round-robin": "vdemedes/round-robin"
+  }
+}
